@@ -31,7 +31,7 @@ _sip._udp.[...].  218 IN  SRV   10 1 5060 sip-anycast-1.voice.google.com.
 
   1. Service `++`
       * must start with an underscore
-      * should be the name of an IANA registered service
+      * **should** be the name of an IANA registered service
   1. **Protocol** (either TCP or UDP) `++`
   1. The zone this record applies to `--`
   1. Record TTL `--`
@@ -60,7 +60,7 @@ of the Windows 2000 Server OS line mostly through its adoption of
 Kerberos for the core of its Active Directory Service.
 
 
-### into its own
+## into its own
 
 The introduction of non-brittle service discovery cluster projects finally made
 SRV records truly useful.
